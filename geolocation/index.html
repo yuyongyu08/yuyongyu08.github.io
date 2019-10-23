@@ -9,10 +9,10 @@
 
 
 <script>
-    var position = navigator.geolocation.getCurrentPosition(function (position2) {
-        alert(position2);
+    navigator.geolocation.getCurrentPosition(function (position) {
+        alert('经纬度：' + position.coords.latitude + ',' + position.coords.longitude);
     }, function (error) {
-        alert(error)
+        alert('失败：',error)
     })
 </script>
 </body>
