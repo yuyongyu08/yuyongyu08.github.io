@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test Geolocation</title>
+</head>
+<body>
+<h3>Geolocation</h3>
+
+
+<script>
+    navigator.geolocation.getCurrentPosition(function (position) {
+        alert('经纬度：' + position.coords.latitude + ',' + position.coords.longitude);
+    }, function (error) {
+        alert('失败：',error)
+    })
+</script>
+</body>
+</html>
