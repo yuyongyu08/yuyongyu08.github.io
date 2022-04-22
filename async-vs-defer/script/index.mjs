@@ -7,5 +7,5 @@ function append(text){
 export default (fileName,num) => {
     append(`delay${fileName}s.js start executing!`)
 
-    setTimeout(() => append(`delay${num}s.js setTimeout callback executed! `), num * 1000)
+    setTimeout((name) => append(`delay${name}s.js setTimeout callback executed! `), num * 1000, fileName)
 }
