@@ -6,24 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>async</title>
+    <script>
+        var startTime = new Date().getMilliseconds()
+    </script>
     <script type="module" async src="../script/delay1s.mjs"></script>
     <script type="module" async src="../script/delay2s.mjs"></script>
     <script type="module" async src="../script/delay3s.mjs"></script>
-
 </head>
 
 <body>
     <script type="module" src="../script/delay4s.mjs"></script>
-
     <h2>async：异步下载，无序执行</h2>
+    <ul id="ul"></ul>
     <script>
-        console.log('inline script start execute!');
+        function log(fnName) {
+            var endTime = new Date().getMilliseconds()
+            console.log(`%c ${fnName} executed! after ${endTime - startTime} ms. `, 'color:#0f0;');
+        }
+
+        log('inline script');
 
         document.addEventListener('DOMContentLoaded', function () {
-            console.log("%c DOMContentLoaded executed!", 'color:#0f0;');
+            log('DOMContentLoaded')
         });
         window.onload = function () {
-            console.log("%c onload executed!", 'color:#0f0;');
+            log('onload')
         }
     </script>
     <script type="module" async src="../script/delay5s.mjs"></script>

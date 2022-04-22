@@ -18,15 +18,20 @@
     <script type="module" src="../script/delay4s.mjs"></script>
 
     <h2>defer：异步下载，按序执行</h2>
+    <ul id="ul"></ul>
     <script>
-        console.log('inline script start execute!');
+        function log(fnName){
+            var endTime = new Date().getMilliseconds()
+            console.log(`%c ${fnName} executed! after ${endTime - startTime} ms. `, 'color:#0f0;');
+        }
+       
+        log('inline script');
 
         document.addEventListener('DOMContentLoaded', function () {
-            var endTime = new Date().getMilliseconds()
-            console.log(`%c DOMContentLoaded executed! ${endTime-startTime}`, 'color:#0f0;');
+            log('DOMContentLoaded')
         });
         window.onload = function () {
-            console.log("%c onload executed!", 'color:#0f0;');
+            log('onload')
         }
     </script>
     <script type="module" defer src="../script/delay5s.mjs"></script>

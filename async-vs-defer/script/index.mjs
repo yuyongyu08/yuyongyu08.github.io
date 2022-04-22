@@ -1,5 +1,11 @@
-export default (num) => {
-    console.log(`delay${num}s.js start execute!`);
+function append(text){
+    let li = document.createElement('li')
+    li.innerText = text;
+    document.getElementById('ul').appendChild(li)
+}
 
-    setTimeout(() => console.log(`delay${num}s.js setTimeout callback executed! `), num * 1000)
+export default (fileName,num) => {
+    append(`delay${fileName}s.js start executing!`)
+
+    setTimeout(() => append(`delay${num}s.js setTimeout callback executed! `), num * 1000)
 }
