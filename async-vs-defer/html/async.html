@@ -19,9 +19,14 @@
     <h2>async：异步下载，无序执行</h2>
     <ul id="ul"></ul>
     <script>
+        function append(text) {
+            let li = document.createElement('li')
+            li.innerText = text;
+            document.getElementById('ul').appendChild(li)
+        }
         function log(fnName) {
             var endTime = new Date().getMilliseconds()
-            console.log(`%c ${fnName} executed! after ${endTime - startTime} ms. `, 'color:#0f0;');
+            append(`${fnName} executed! after ${endTime - startTime} ms.`);
         }
 
         log('inline script');
