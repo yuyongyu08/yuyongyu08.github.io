@@ -1,5 +1,7 @@
 ## 于永雨的作品集
 
+### 主要内容
+
 - [潘多拉（pandora）](https://yuyongyu08.github.io/pandora/)
 - [防抖和节流可视化](https://yuyongyu08.github.io/debounce-vs-throttle/)
 - [canvas动效](https://yuyongyu08.github.io/canvas/)
@@ -7,4 +9,13 @@
 - [async vs defer](https://yuyongyu08.github.io/async-vs-defer/)
 
 
-GitHub Pages官网：[传送门](https://pages.github.com/)
+### 开发相关：
+
+* GitHub Pages官网：[传送门](https://pages.github.com/)
+
+* 帮助文档：[入口](https://docs.github.com/zh/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll)
+
+* 当前主题：[入口](https://github.com/pages-themes/cayman)
+
+* 支持的主题: [传送门](https://pages.github.com/themes/)
+
