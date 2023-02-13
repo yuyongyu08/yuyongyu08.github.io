@@ -1,70 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
     <title>防抖和节流</title>
     <style>
-        #app {
-            width: 100%;
-            height: 200px;
-            border: 1px solid;
-        }
+      #app {
+        width: 100%;
+        height: 400px;
+        border: 1px solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        color: gray;
+      }
 
-        .container{
-            display: flex;
-        }
+      .container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+      }
 
-        fieldset {
-            display: inline-block;
-            width: 200px;
-            height: 200px;
-            text-align: center;
-        }
+      fieldset {
+        display: flex;
+        width: 200px;
+        height: 200px;
+        text-align: center;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 20px;
+        flex-direction: column;
+      }
 
-        fieldset div.counter {
-            font-size: 50px;
-        }
+      fieldset div.counter {
+        font-size: 50px;
+      }
+
+      fieldset i {
+        display: block;
+      }
+
+      #normal {
+        color: red;
+      }
+      #debounce {
+        color: green;
+      }
+      #throttle {
+        color: darkorange;
+      }
     </style>
-</head>
+  </head>
 
-<body>
-    <div id="app">在此区域内滑动鼠标</div>
+  <body>
+    <div id="app">在此区域内滑动鼠标，观察数字变化......</div>
     <div class="container">
-        <fieldset>
-            <legend>正常</legend>
-            <div id="normal" class="counter" data-counter="0">0</div>
-        </fieldset>
+      <fieldset>
+        <legend>正常</legend>
+        <div id="normal" class="counter" data-counter="0">0</div>
+        <i>实时响应</i>
+      </fieldset>
 
-        <fieldset>
-            <legend>防抖</legend>
-            <div id="debounce" class="counter" data-counter="0">0</div>
-        </fieldset>
+      <fieldset>
+        <legend>防抖（debounce）</legend>
+        <div id="debounce" class="counter" data-counter="0">0</div>
+        <i>在约定时间后进行响应，如果等待期间再次触发，则重置等待时间</i>
+      </fieldset>
 
-        <fieldset>
-            <legend>节流</legend>
-            <div id="throttle" class="counter" data-counter="0">0</div>
-        </fieldset>
+      <fieldset>
+        <legend>节流（throttle）</legend>
+        <div id="throttle" class="counter" data-counter="0">0</div>
+        <i>以约定的时间作为执行间隔，其执行节奏不受重复触发影响</i>
+      </fieldset>
     </div>
-
-    <h3>区别：</h3>
-    <details>
-        <summary>正常</summary>
-        实时响应
-    </details>
-    <details>
-        <summary>防抖</summary>
-        在约定时间后进行响应，如果等待期间再次触发，则重置等待时间
-    </details>
-    <details>
-        <summary>节流</summary>
-        以约定的时间作为执行间隔，其执行节奏不受重复触发影响
-    </details>
-
     <script src="./solution/debounce.js"></script>
     <script src="./solution/throttle.js"></script>
     <script src="./index.js"></script>
-</body>
-
+  </body>
 </html>
