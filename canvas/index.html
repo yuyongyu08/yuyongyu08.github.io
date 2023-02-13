@@ -12,16 +12,22 @@
         /* border: 1px solid; */
       }
 
-      button {
+      .btn {
         position: absolute;
         top: 600px;
         left: 50%;
         transform: translate(-34%, 0);
+        font-size: 20px;
+        border: 1px solid green;
+        border-radius: 4px;
+        padding: 5px 20px;
+        cursor: pointer;
       }
     </style>
   </head>
   <body>
-    <button onclick="handleClick()">开始</button><canvas width="1000" height="1000" id="canvas"></canvas>
+    <div class="btn" onclick="handleClick()">开始</div>
+    <canvas width="1000" height="1000" id="canvas"></canvas>
     <script src="sort.js"></script>
   </body>
 </html>

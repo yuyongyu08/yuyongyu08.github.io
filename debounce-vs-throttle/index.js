@@ -32,7 +32,8 @@
     if (os.isAndroid || os.isPhone) {
         eventType = 'touchmove'
     }
+    const delay = 1000;
     zone.addEventListener(eventType, callback.bind(null, 'normal'));
-    zone.addEventListener(eventType, debounce(callback.bind(this, 'debounce'), 200));
-    zone.addEventListener(eventType, throttle(callback.bind(this, 'throttle'), 200));
+    zone.addEventListener(eventType, debounce(callback.bind(this, 'debounce'), delay));
+    zone.addEventListener(eventType, throttle(callback.bind(this, 'throttle'), delay));
 })();

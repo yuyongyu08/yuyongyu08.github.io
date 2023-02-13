@@ -50,6 +50,11 @@
       #throttle {
         color: darkorange;
       }
+
+      .tips{
+        margin-top: 20px;
+        text-align: center;
+      }
     </style>
   </head>
 
@@ -74,6 +79,8 @@
         <i>以约定的时间作为执行间隔，其执行节奏不受重复触发影响</i>
       </fieldset>
     </div>
+    <div class="tips">注意：防抖和节流的延迟时间统一设置为1000毫秒</div>
+
     <script src="./solution/debounce.js"></script>
     <script src="./solution/throttle.js"></script>
     <script src="./index.js"></script>
