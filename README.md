@@ -1,4 +1,4 @@
-## 个人作品集
+## 于永雨的作品集
 
 - [潘多拉（pandora）](https://yuyongyu08.github.io/pandora/)
 - [防抖和节流可视化](https://yuyongyu08.github.io/debounce-vs-throttle/)
