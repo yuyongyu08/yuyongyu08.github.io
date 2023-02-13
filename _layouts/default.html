@@ -16,7 +16,7 @@
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+      <h1 class="project-name">{{ default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       {% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
@@ -32,7 +32,7 @@
       <ul>
         <li><a href="/pandora">潘多拉（pandora）</a></li>
         <li><a href="/debounce-vs-throttle">防抖和节流可视化</a></li>
-        <li><a href="/sort">canvas动效</a></li>
+        <li><a href="/canvas">canvas动效</a></li>
         <li><a href="/vvconsole">动态加载vConsole</a></li>
         <li><a href="/async-vs-defer">async vs defer</a></li>
       </ul>
