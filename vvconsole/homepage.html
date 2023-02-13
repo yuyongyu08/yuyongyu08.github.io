@@ -3,20 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0">
-    <title>vConsole唤起</title>
+    <title>手势唤起vConsole</title>
 </head>
 <body>
-<h3>
-     请用两个手指捏合，触发vConsole的显隐
+<h3 style="text-align: center;" id="tip">
+     请稍后操作，资源加载中......
 </h3>
 
-<div>
-    使用手机查看：
-</div>
-<img width="80%" src="qrCode.png">
-
 <script>
-    console.log('看到这段日志，说明已经唤起了vConsole');
+  window.onload = () => {
+    document.getElementById('tip').innerHTML = '请用两个手指捏合，触发vConsole的显隐';
+    console.log('window.VConsole:', window.VConsole);
+  }
 </script>
 <script src="vvConsole.min.js"></script>
 </body>
