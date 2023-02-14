@@ -1,7 +1,7 @@
 ---
 layout: default
 title: async vs defer
-description: <script>上的async、defer属性的详解及验证demo
+description: script标签上的async、defer属性的详解及验证demo
 ---
 
 ## 一、概览
