@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 手势唤起vConsole
-description: 调试H5时通过手势动作唤起vConsole，告别硬编码
+title: async vs defer
+description: <script>上的async、defer属性的详解及验证demo
 ---
 
 ## 一、概览
