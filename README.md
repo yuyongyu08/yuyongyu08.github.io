@@ -4,18 +4,17 @@
 
 - [潘多拉（pandora）](https://yuyongyu08.github.io/pandora/)
 - [防抖和节流可视化](https://yuyongyu08.github.io/debounce-vs-throttle/)
-- [canvas动效](https://yuyongyu08.github.io/canvas/)
-- [动态加载vConsole](https://yuyongyu08.github.io/vvconsole/)
+- [canvas 动效](https://yuyongyu08.github.io/canvas/)
+- [动态加载 vConsole](https://yuyongyu08.github.io/vvconsole/)
 - [async vs defer](https://yuyongyu08.github.io/async-vs-defer/)
-
+- [chat-GPT 尝鲜](https://yuyongyu08.github.io/ai-entry/)
 
 ### 开发相关：
 
-* GitHub Pages官网：[传送门](https://pages.github.com/)
+- GitHub Pages 官网：[传送门](https://pages.github.com/)
 
-* 帮助文档：[入口](https://docs.github.com/zh/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll)
+- 帮助文档：[入口](https://docs.github.com/zh/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll)
 
-* 当前主题：[入口](https://github.com/pages-themes/cayman)
+- 当前主题：[入口](https://github.com/pages-themes/cayman)
 
-* 支持的主题: [传送门](https://pages.github.com/themes/)
-
+- 支持的主题: [传送门](https://pages.github.com/themes/)
