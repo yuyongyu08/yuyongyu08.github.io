@@ -2,8 +2,9 @@
 layout: default
 ---
 
-* [潘多拉（pandora）](/pandora)
-* [防抖（debounce）和节流（throttle）可视化](/debounce-vs-throttle)
-* [canvas动效](/canvas)
-* [手势唤起vConsole](/vvconsole/index.html)
-* [async vs defer](/async-vs-defer)
+- [潘多拉（pandora）](/pandora)
+- [防抖（debounce）和节流（throttle）可视化](/debounce-vs-throttle)
+- [canvas 动效](/canvas)
+- [手势唤起 vConsole](/vvconsole/index.html)
+- [async vs defer](/async-vs-defer)
+- [chat-GPT 尝鲜](/ai-entry/)
