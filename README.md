@@ -2,12 +2,12 @@
 
 ### 主要内容
 
+- [chat-GPT 尝鲜](https://www.yuyongyu.tech/)
 - [潘多拉（pandora）](https://yuyongyu08.github.io/pandora/)
 - [防抖和节流可视化](https://yuyongyu08.github.io/debounce-vs-throttle/)
 - [canvas 动效](https://yuyongyu08.github.io/canvas/)
 - [动态加载 vConsole](https://yuyongyu08.github.io/vvconsole/)
 - [async vs defer](https://yuyongyu08.github.io/async-vs-defer/)
-- [chat-GPT 尝鲜](https://yuyongyu08.github.io/ai-entry/)
 
 ### 开发相关：
 
