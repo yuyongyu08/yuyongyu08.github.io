@@ -8,3 +8,4 @@ layout: default
 - <a href="/canvas" target="_blank">canvas 动效</a>
 - <a href="/vvconsole" target="_blank">手势唤起 vConsole</a>
 - <a href="/async-vs-defer" target="_blank">async vs defer</a>
+- <a href="https://blog.yuyongyu.tech/" target="_blank">个人学习总结</a>
