@@ -10,3 +10,5 @@ layout: default
 - <a href="/vvconsole" target="_blank">手势唤起 vConsole</a>
 - <a href="/async-vs-defer" target="_blank">async vs defer</a>
 - <a href="https://blog.yuyongyu.tech/" target="_blank">个人学习总结</a>
+- <a href="/react-demo" target="_blank">React学习</a>
+
