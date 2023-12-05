@@ -11,4 +11,5 @@ layout: default
 - <a href="/async-vs-defer" target="_blank">async vs defer</a>
 - <a href="https://blog.yuyongyu.tech/" target="_blank">个人学习总结</a>
 - <a href="/react-demo" target="_blank">React学习（手敲官网所有demo）</a>
+- <a href="/multiple-window-3d-scene" target="_blank">量子纠缠</a>
 
