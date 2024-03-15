@@ -2,9 +2,9 @@
 layout: default
 ---
 
-- <a href="https://blog.yuyongyu.tech/" target="_blank">个人学习总结</a>
-<!-- - <a href="https://ai-next-web.yuyongyu.tech/" target="_blank">chat-GPT next web</a> -->
-- <a href="https://ai.yuyongyu.tech/" target="_blank">chat-GPT 尝鲜</a>
+- <a href="https://blog.yuyy.tech/" target="_blank">个人学习总结</a>
+<!-- - <a href="https://ai-next-web.yuyy.tech/" target="_blank">chat-GPT next web</a> -->
+- <a href="https://ai.yuyy.tech/" target="_blank">chat-GPT 尝鲜</a>
 - <a href="/pandora" target="_blank">潘多拉（pandora）</a>
 - <a href="/debounce-vs-throttle" target="_blank">防抖（debounce）和节流（throttle）可视化</a>
 - <a href="/canvas" target="_blank">canvas 动效</a>
