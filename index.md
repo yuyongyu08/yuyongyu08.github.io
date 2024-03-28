@@ -12,4 +12,5 @@ layout: default
 - <a href="/async-vs-defer" target="_blank">async vs defer</a>
 - <a href="/react-demo" target="_blank">React学习（手敲官网所有demo）</a>
 - <a href="/multiple-window-3d-scene" target="_blank">量子纠缠</a>
+- <a href="/video-in-h5" target="_blank">video in h5</a>
 

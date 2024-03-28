@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://vjs.zencdn.net/7.8.4/video-js.css" rel="stylesheet" />
+    <script src="https://vjs.zencdn.net/7.8.4/video.js"></script>
+  </head>
+  <body>
+    <div>
+      <h1 style="height: 60px; position: fixed;">header</h1>
+      <div>
+        <video id="my-video" class="video-js" controls preload="auto" width="640" height="264" poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
+          <source src="https://jdh-llm.s3.cn-north-1.jdcloud-oss.com/jdhOfficialWebsite/jdhProductsPromotionFilm_Final.mp4" type="video/mp4" />
+          <p class="vjs-no-js">
+            To view this video please enable JavaScript, and consider upgrading to a web browser that
+            <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+          </p>
+        </video>
+      </div>
+      <script>
+        var player = videojs("my-video");
+        player.ready(function () {
+          var myPlayer = this;
+          myPlayer.play();
+        });
+      </script>
+    </div>
+  </body>
+</html>
